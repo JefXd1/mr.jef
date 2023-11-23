@@ -1,44 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Welcome to My Website</h1>
+    <h1>My Personal Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
-  <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
-  <div class="container">
-  <!-- Your website content goes here -->
-</div>
-  <center>
-<h2>My website</h2>
 
-<img src="Img Jef.jpg" alt="img" width="460" height="345">
-<h2>Using a Full URL File Path</h2>
-<img src="https://www.w3schools.com/images/picture.jpg" alt="Img Jef.jpg" style="width:300px">
-
-
-  <section>
+  <section id="about">
     <h2>About Me</h2>
-    <p>I am a web developer with a passion for creating beautiful and functional websites.</p>
+    <p>Write a brief description about yourself and your skills.</p>
   </section>
-  <footer>
-    <p>&copy; 2023 My Website. All rights reserved.</p>
-  </footer>
-</body>
-</html>
-    
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>Description of project 1.</p>
+    </div>
+    <div class="project">
+      <h3>Project 2</h3>
+      <p>Description of project 2.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Include your contact information here.</p>
+  </section>
 </body>
 </html>
